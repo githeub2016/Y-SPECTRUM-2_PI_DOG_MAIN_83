@@ -1,0 +1,11 @@
+Y-spectrum-2 (youtube channel)
+This is a 4 legged walking robot puppy project I built myself, and contains only 3 code files, using python and pygame, targeting raspberry pi 3 platform but can also run on Windows PC if you install python and pygame i'm using python IDLE version(3.5.3) and pygame 1.9.4
+
+Soredog_Main.py contains the controller code of the robot (simple AI) and you should Run the program from there on your python IDLE.
+
+ I removed the adafruit sensor related code and other non essential code to increase code compatibility, readability and reduce complexity, so even if you don’t have the sensors installed on your project you can run this code without error.
+
+There is a function called DriveServos() in the Global_Essentials_Class.py which is the output that provides angle data to tell the servos what position to go and what speed.
+
+Project details (youtube) 2 part video
+https://www.youtube.com/watch?v=XftF6oc6qho
